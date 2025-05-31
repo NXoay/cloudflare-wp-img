@@ -8,7 +8,7 @@ A high-performance Cloudflare Worker that acts as a smart proxy for WordPress Je
 
 ### 📖 Overview
 
-**Cloudflare-Jetpack-X** is a lightweight, production-ready Cloudflare Worker that:
+**Cloudflare-WP-Img** is a lightweight, production-ready Cloudflare Worker that:
 
 - 🔀 **Smart Redirects**: Automatically redirects root domain requests to your main WordPress site
 - 🖼️ **Image Proxy**: Proxies and optimizes image requests through WordPress Jetpack CDN (`i0.wp.com`)
@@ -31,8 +31,8 @@ A high-performance Cloudflare Worker that acts as a smart proxy for WordPress Je
 1. **Deploy to Cloudflare Workers**:
    ```bash
    # Clone the repository
-   git clone https://github.com/yourusername/cloudflare-jetpack-x.git
-   cd cloudflare-jetpack-x
+   git clone https://github.com/yourusername/cloudflare-wp-img.git
+   cd cloudflare-wp-img
    
    # Deploy using Wrangler CLI
    npx wrangler deploy
@@ -95,6 +95,8 @@ curl -I https://your-worker.your-subdomain.workers.dev/
 curl -I https://your-worker.your-subdomain.workers.dev/wp-content/uploads/image.jpg
 
 ```
+### Using
+Change the image domain to your worker link by manual edit functions.php or use plugin that has image CDN options
 
 ### 📈 Performance
 
@@ -152,8 +154,8 @@ See [LICENSE](LICENSE) file for details.
 1. **Deploy lên Cloudflare Workers**:
    ```bash
    # Clone repository
-   git clone https://github.com/yourusername/cloudflare-jetpack-x.git
-   cd cloudflare-jetpack-x
+   git clone https://github.com/yourusername/cloudflare-wp-img.git
+   cd cloudflare-wp-img
    
    # Deploy bằng Wrangler CLI
    npx wrangler deploy
