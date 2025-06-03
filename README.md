@@ -1,6 +1,6 @@
 # Cloudflare-Jetpack-X
 
-A high-performance Cloudflare Worker that acts as a smart proxy for WordPress Jetpack CDN, optimizing image delivery with advanced caching and SEO enhancements.
+A high-performance Cloudflare Pages that acts as a smart image proxy for WordPress, optimizing image delivery with advanced caching and SEO enhancements.
 
 ---
 
@@ -8,7 +8,7 @@ A high-performance Cloudflare Worker that acts as a smart proxy for WordPress Je
 
 ### 📖 Overview
 
-**Cloudflare-WP-Img** is a lightweight, production-ready Cloudflare Worker that:
+**Cloudflare-WP-Img** is a lightweight, production-ready Cloudflare Pages that:
 
 - 🔀 **Smart Redirects**: Automatically redirects root domain requests to your main WordPress site
 - 🖼️ **Image Proxy**: Proxies and optimizes image requests through WordPress Jetpack CDN (`i0.wp.com`)
@@ -131,7 +131,7 @@ See [LICENSE](LICENSE) file for details.
 
 ### 📖 Tổng Quan
 
-**Cloudflare-Jetpack-X** là một Cloudflare Worker nhẹ, sẵn sàng cho production với các tính năng:
+**Cloudflare-WP-Image** là một Cloudflare Pages nhẹ, sẵn sàng cho production với các tính năng:
 
 - 🔀 **Chuyển Hướng Thông Minh**: Tự động chuyển hướng các yêu cầu domain gốc về trang WordPress chính
 - 🖼️ **Proxy Hình Ảnh**: Proxy và tối ưu hóa yêu cầu hình ảnh qua WordPress Jetpack CDN (`i0.wp.com`)
